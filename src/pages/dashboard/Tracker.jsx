@@ -128,6 +128,7 @@ function Tracker(props) {
             center: "title",
             end: "dayGridMonth,dayGridWeek,dayGridDay",
           }}
+          firstDay={1}
           height={"89vh"}
           editable={true}
           selectable={true}
